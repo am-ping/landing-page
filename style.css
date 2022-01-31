@@ -16,14 +16,50 @@ body {
     padding-right: 200px;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 .links {
     margin-left: auto;
     display: flex;
+    gap: 30px;
 }
 
 .link-one,
 .link-two,
 .link-three {
-    margin: 3px 15px;
+
     font-weight: normal;
+}
+
+.awesome {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+    gap: 80px;
+}
+
+.left-awesome {
+    flex-wrap: wrap;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.title-subtext {
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+img {
+    width: 600px;
+    height: 300px;
 }
